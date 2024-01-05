@@ -1,1 +1,1 @@
-Simple To Do List web app using HTML, CSS, and JavaScript.
+Simple To Do List web app using HTML, CSS, and JavaScript. Can add tasks, check them off, and delete them fully from list. Tasks and their checked status data are stored locally so they do not reset when page is refreshed or revisited.

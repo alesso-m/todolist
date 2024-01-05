@@ -57,6 +57,12 @@ button{
     cursor: pointer;
     border-radius: 40px;
 }
+
+.clear{
+    padding: 12px 20px;
+    margin-left:60%;
+}
+
 ul li{
     list-style:none;
     font-size:15px;

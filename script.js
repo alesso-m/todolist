@@ -36,4 +36,9 @@ function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
 
+function clearList(){
+    localStorage.clear();
+    location.reload();
+}
+
 showTask();

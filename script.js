@@ -28,6 +28,12 @@ listContainer.addEventListener("click", function(e){
         }
 }, false);
 
+function checkEnter(event) {
+    if (event.keyCode === 13) { //enter
+        addTask();
+    }
+}
+
 function saveData(){
     localStorage.setItem("data", listContainer.innerHTML);
 }
